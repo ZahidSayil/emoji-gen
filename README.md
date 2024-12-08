@@ -22,23 +22,10 @@ npm install lucide-react
 # 6. Install Google Gemini API client
 npm install @google/generative-ai
 
-# 7. (Optional) Install Axios for API requests
-npm install axios
 
 # 8. Create a .env.local file and add your Google Gemini API key
 echo "GEMINI_KEY=your_google_gemini_api_key" > .env.local
 
-# 9. Run the development server
-npm run dev
-
-# 10. Build the project for production
-npm run build
-
-# 11. Start the production server
-npm start
-
-# 12. Lint the project
-npm run lint
 
 # 13. Check Node.js version (ensure it’s 18 or higher)
 node -v
