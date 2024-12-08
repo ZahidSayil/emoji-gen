@@ -1,6 +1,48 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+```bash
+
+# 1. Create a new Next.js project
+npx create-next-app@latest emoji-inspiration-generator
+
+# 2. Navigate into the project directory
+cd emoji-inspiration-generator
+
+# 3. Initialize Git
+git init
+
+# 4. Install Tailwind CSS and dependencies
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# 5. Install Lucide icons
+npm install lucide-react
+
+# 6. Install Google Gemini API client
+npm install @google/generative-ai
+
+# 7. (Optional) Install Axios for API requests
+npm install axios
+
+# 8. Create a .env.local file and add your Google Gemini API key
+echo "GEMINI_KEY=your_google_gemini_api_key" > .env.local
+
+# 9. Run the development server
+npm run dev
+
+# 10. Build the project for production
+npm run build
+
+# 11. Start the production server
+npm start
+
+# 12. Lint the project
+npm run lint
+
+# 13. Check Node.js version (ensure it’s 18 or higher)
+node -v
+```
 
 First, run the development server:
 
